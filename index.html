@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="public/style/index/index.css" />
+  </head>
+
+  <body>
+    <main class="hero flex">
+      <div class="content container grid">
+        <div class="content__text anim-text">
+          <h1>Learn to code by watching others</h1>
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="content__form">
+          <p class="anim-card-p"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+          <div class="card anim-card-form">
+            <form action="" method="GET" class="flex flex-jc-c flex-ai-c flex-fd-c" id="form">
+              <div class="input-div anim-card-input" id="firstInput">
+                <input class="" type="text" name="firstName" id="firstName" placeholder="First Name" />
+                <small class="error error1"></small>
+              </div>
+              <div class="input-div anim-card-input" id="secondInput">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+                <small class="error error2"></small>
+              </div>
+              <div class="input-div anim-card-input" id="thirdInput">
+                <input type="text" name="emailAddress" id="email" placeholder="Email Address" />
+                <small class="error error3"></small>
+              </div>
+              <div class="input-div anim-card-input" id="lastInput">
+                <input type="password" name="password" id="password" placeholder="Password" />
+                <small class="error error4"></small>
+              </div>
+              <button class="btn-primary form-btn anim-card-input" type="submit">Claim your free trial</button>
+              <span class="anim-card-input">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="../js/index.js" async defer></script>
+    <script src="../animations/animations.js" async defer></script>
+  </body>
+</html>
